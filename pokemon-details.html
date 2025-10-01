@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Detalhe do Pokemon</title>
+	<link rel="stylesheet" href="assets/css/pokedetails.css">
+</head>
+<body>
+	<div class="container">
+		<header class="header" id="header">
+			<nav class="nav">
+				<div class="back-btn">←</div>
+			</nav>
+
+			<div class="pokemon-image">
+				<img src="" alt="" id="pokemon-image">
+			</div>
+		</header>
+			
+		<main class="content">
+			<h1 class="pokemon-name" id="pokemon-name"></h1>
+			<p class="pokemon-number" id="pokemon-number"></p>
+
+			<div class="type-badge" id="type-badge"></div>
+
+			<div class="stats-grid" id="stats-grid"></div>
+
+			<div class="abilities-section">
+				<div class="section-title">Habilidades</div>
+				<div class="abilities-badges" id="abilities-badges"></div>
+			</div>
+		</main>
+	</div>
+
+	<script src="assets/js/pokemon-model.js" defer></script>
+    <script src="assets/js/poke-api.js" defer></script>
+    <script src="assets/js/pokemon-details.js" defer></script>
+</body>
+</html>
